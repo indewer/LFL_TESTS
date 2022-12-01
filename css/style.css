@@ -65,3 +65,17 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+
+span_fantasy{
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 7px 7px orange, 18px 18px black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white
+}
